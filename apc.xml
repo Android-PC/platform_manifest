@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="apc"
+          fetch="https://github.com/Android-PC"
+          revision="p9.0" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <!-- Remove first some AOSP repos -->
+  <remove-project name="platform/build" />
+
+  <!-- Begin Android-PC repos -->
+  <project path="build/make" name="platform_build" remote="apc" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="core/x86/build-x86.sh" dest="build-x86.sh" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  
+
+</manifest>
