@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/hCQ5em4.png">
+<img style="text-center" src="https://i.imgur.com/hCQ5em4.png">
 
 Android-PC
 -----------------------
