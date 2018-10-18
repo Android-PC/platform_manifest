@@ -79,5 +79,8 @@ PC builds (x86) explained:
 
     To start, you must first use the -s (--sync) flag, then on following builds, it is not needed.
 
-    $ bash build-x86.sh -s android_x86_64-userdebug (to build the userdebug version)
+    $ bash build-x86.sh -s 
+    
+    Then you can build once things are synced and patched.
+    $ bash build-x86.sh android_x86_64-userdebug foss (to build the userdebug version with FOSS microG & FDroid)
 
