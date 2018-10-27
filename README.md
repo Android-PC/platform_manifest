@@ -2,7 +2,7 @@
 
 Android-PC
 -----------------------
-Download the Android-PC source code, based on [AOSP](https://android.googlesource.com), & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
+Download the Android-PC source code, based on [AOSP](https://android.googlesource.com), [BlissRoms](https://github.com/BlissRoms/platform_manifest), [Android-x86](https://osdn.net/projects/android-x86) & some help from Fguy form Android-x86 Google Groups. 
 
 ---------------------------------------------------
 
