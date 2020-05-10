@@ -3,7 +3,8 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-  <default revision="refs/tags/android-r-preview-3"
+           review="https://android-review.googlesource.com/" />
+  <default revision="refs/tags/android-r-preview-4"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
